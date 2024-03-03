@@ -1,0 +1,89 @@
+/* This stylesheet is created by tikhi */
+/* https://github.com/tikhi0 */
+
+@import url(https://db.onlinewebfonts.com/c/d7e8a95865396cddca89b00080d2cba6?family=SoDo+Sans+SemiBold);
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+.baslik {
+    position:relative;
+    top: 0; /* Sayfanın en üstüne hizala */
+    left: 0; /* Sayfanın soluna hizala */
+    width: 100%; /* Tam genişlik */
+    padding: 0% 5%; /* Kenar boşlukları */
+    height: 83px; /* Yükseklik ayarı */
+    background-color: #ffffff; /* Arka plan rengi */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Gölge efekti */
+    z-index: 999; /* Diğer öğelerin üzerinde görünmesini sağla */
+}
+
+
+.baslik nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.baslik nav img {
+    max-width: 140px;
+    height: auto;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 30px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    transition: color .25s ease;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+}
+
+nav ul li a:hover{
+    color: #008C15;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.70%;
+    width: 100%;
+}
+
+nav .menu .menu-button{
+    color: white;
+    text-decoration: none;
+    background-color: #008C15;
+    padding: 12px 24px;
+    border-radius: 56px;
+    transform: all .25s ease;
+}
+nav .menu .menu-button:hover{
+    background-color:   #FFC600;
+    color: 	#008C15;
+}
+
+.cubuk{
+    background-color: #323232;
+    padding: 0px 1.5px;
+    margin: 7px 0px;
+    border-radius: 4px;
+}

@@ -1,0 +1,100 @@
+/* This stylesheet is created by tikhi */
+/* https://github.com/tikhi0 */
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    font-family: monospace;
+    color: white;
+	font-family: "SoDo Sans SemiBold";
+    letter-spacing: 1px;
+    font-size: 14px;
+    background-color: white;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+canvas {
+    position:fixed;
+    top: 0px;
+    left: 0;
+}
+
+#scrollProgress {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 99;
+    font-size: 3vh;
+}
+
+main {
+    width: 100vw;
+    height: 200vw;
+    z-index: 99;
+    position: absolute;
+    justify-content: center;
+    text-align: end;
+    pointer-events: none; /* Yazının seçilebilirliğini değiştiriyor. */
+    font-size: 5vh;
+}
+
+main p{
+    text-align: end;
+    margin-right: 10%;
+}
+
+main h1{
+    text-align: end;
+    margin-right: 1%;
+}
+
+main h2{
+    text-align: end;
+    margin-right: 1%;
+    margin-bottom: 35px;
+}
+
+section {
+    font-size: 4vh;
+    position: absolute;
+    width: 100%;
+}
+
+/* Her section'ın pozisyonunu belirli yüzdelerde başlat */
+#ustekmek {
+    top: 23%; /* %24'ten başla */
+}
+
+#domates {
+    top: 50%; /* %43'ten başla */
+}
+
+#et {
+    top: 77%; /* %57'den başla */
+}
+
+#marul {
+    top: 104%; /* %57'den başla */
+}
+
+#cheedar {
+    top: 130%; /* %57'den başla */
+}
+
+#end {
+    top: 145%; /* %57'den başla */
+}
+
+section h1,
+section h2,
+section p {
+    text-align: end;
+    margin-right: 2%;
+}
