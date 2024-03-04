@@ -19,14 +19,14 @@
 
 .baslik {
     position:relative;
-    top: 0; /* Sayfanın en üstüne hizala */
-    left: 0; /* Sayfanın soluna hizala */
-    width: 100%; /* Tam genişlik */
-    padding: 0% 5%; /* Kenar boşlukları */
-    height: 83px; /* Yükseklik ayarı */
-    background-color: #ffffff; /* Arka plan rengi */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); /* Gölge efekti */
-    z-index: 999; /* Diğer öğelerin üzerinde görünmesini sağla */
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0% 5%;
+    height: 83px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    z-index: 999;
 }
 
 

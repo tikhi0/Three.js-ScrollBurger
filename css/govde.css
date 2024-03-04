@@ -41,7 +41,7 @@ main {
     position: absolute;
     justify-content: center;
     text-align: end;
-    pointer-events: none; /* Yazının seçilebilirliğini değiştiriyor. */
+    pointer-events: none;
     font-size: 5vh;
 }
 
@@ -67,29 +67,29 @@ section {
     width: 100%;
 }
 
-/* Her section'ın pozisyonunu belirli yüzdelerde başlat */
+/* Initialize the position of each section at certain percentages */
 #ustekmek {
-    top: 23%; /* %24'ten başla */
+    top: 23%; /* Start from 24% */
 }
 
 #domates {
-    top: 50%; /* %43'ten başla */
+    top: 50%; /* Start from 43% */
 }
 
 #et {
-    top: 77%; /* %57'den başla */
+    top: 77%; /* Start from 77% */
 }
 
 #marul {
-    top: 104%; /* %57'den başla */
+    top: 104%; /* Start from 104% */
 }
 
 #cheedar {
-    top: 130%; /* %57'den başla */
+    top: 130%; /* Start from 130% */
 }
 
 #end {
-    top: 145%; /* %57'den başla */
+    top: 145%; /* Start from 145% */
 }
 
 section h1,
