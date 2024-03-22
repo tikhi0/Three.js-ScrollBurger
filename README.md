@@ -10,8 +10,8 @@ The textures for the "et" and "bacon" models are missing.
 There is no animation for the "Bacon" model. (I believe this is related to the model itself, and I couldn't find a solution.)
 There may be errors that I forgot to address."
 
-"For communication:
-https://github.com/tikhi0"
+For communication:
+https://github.com/yunusegriboz
 
 ------------------------------------------
 
@@ -27,4 +27,4 @@ Sitede bazı eksikliklerin olduğunun farkındayım:
 - Yazmayı unuttuğum hatalar olabilir.
 
 İletişim için:
-https://github.com/tikhi0
+https://github.com/yunusegriboz
