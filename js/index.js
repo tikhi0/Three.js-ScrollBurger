@@ -1,5 +1,5 @@
-// This JavaScript code is written by tikhi
-// https://github.com/tikhi0
+// This JavaScript code is written by yunusegriboz
+// https://github.com/yunusegriboz
 
 import * as THREE from 'https://cdn.skypack.dev/three@0.130.1';
 import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.130.1/examples/jsm/loaders/GLTFLoader.js';
